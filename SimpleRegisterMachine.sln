@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LagDaemon.RegisterMachine.Core", "LagDaemon.RegisterMachine.Core\LagDaemon.RegisterMachine.Core.fsproj", "{F3389853-1DE1-4F3C-9ED3-E92B0070D474}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LagDaemon.RegisterMachine.Assembler", "LagDaemon.RegisterMachine.Assembler\LagDaemon.RegisterMachine.Assembler.fsproj", "{4FF27E6D-2EB4-4BDD-A6C4-5183B085E935}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3389853-1DE1-4F3C-9ED3-E92B0070D474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3389853-1DE1-4F3C-9ED3-E92B0070D474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3389853-1DE1-4F3C-9ED3-E92B0070D474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3389853-1DE1-4F3C-9ED3-E92B0070D474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF27E6D-2EB4-4BDD-A6C4-5183B085E935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF27E6D-2EB4-4BDD-A6C4-5183B085E935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF27E6D-2EB4-4BDD-A6C4-5183B085E935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF27E6D-2EB4-4BDD-A6C4-5183B085E935}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
