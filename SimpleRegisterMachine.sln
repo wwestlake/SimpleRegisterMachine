@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LagDaemon.RegisterMachine.C
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LagDaemon.RegisterMachine.Assembler", "LagDaemon.RegisterMachine.Assembler\LagDaemon.RegisterMachine.Assembler.fsproj", "{4FF27E6D-2EB4-4BDD-A6C4-5183B085E935}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LagDaemon.RegisterMachine", "LagDaemon.RegisterMachine\LagDaemon.RegisterMachine.csproj", "{3BCADF31-BC46-4730-833A-DD4701B891A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4FF27E6D-2EB4-4BDD-A6C4-5183B085E935}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FF27E6D-2EB4-4BDD-A6C4-5183B085E935}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FF27E6D-2EB4-4BDD-A6C4-5183B085E935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCADF31-BC46-4730-833A-DD4701B891A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCADF31-BC46-4730-833A-DD4701B891A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCADF31-BC46-4730-833A-DD4701B891A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCADF31-BC46-4730-833A-DD4701B891A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
